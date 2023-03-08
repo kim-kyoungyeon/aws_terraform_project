@@ -1,6 +1,6 @@
-<mxfile modified="2023-03-08T06:36:17.450Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="WpoOpVAM0sc9KaubZcsl" version="21.0.2" type="github">
+<mxfile modified="2023-03-08T08:40:55.255Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Aas6s5LN71lURAhDnpuJ" version="21.0.2" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="2968" dy="1838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2218" dy="1417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -167,14 +167,17 @@
         </mxCell>
         <mxCell id="gqNzPMrKnhylWZQlq9tM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gqNzPMrKnhylWZQlq9tM-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="-140" as="targetPoint" />
+            <mxPoint x="560" y="-190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gqNzPMrKnhylWZQlq9tM-12" value="Application Load&amp;nbsp;&lt;br&gt;Balancer" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="290" y="-310" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gqNzPMrKnhylWZQlq9tM-19" value="Security Group" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;fontStyle=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="290" y="-139.5" width="500" height="119.5" as="geometry" />
+        <mxCell id="gqNzPMrKnhylWZQlq9tM-19" value="Auto Scaling Group" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;fontStyle=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-139.5" width="530" height="149.5" as="geometry" />
+        </mxCell>
+        <mxCell id="gqNzPMrKnhylWZQlq9tM-20" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D45B07;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.auto_scaling2;" vertex="1" parent="1">
+          <mxGeometry x="537" y="-187.5" width="48" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
